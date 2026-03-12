@@ -1,0 +1,23 @@
+# main
+build/
+
+# compiled objects
+*.o
+
+# compiler executable
+emotion
+
+# generated C++ files
+*.cpp
+
+# compiled executables
+*.out
+
+# editor files
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
