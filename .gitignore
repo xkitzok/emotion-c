@@ -8,11 +8,12 @@ build/
 emotion
 
 # Generated C++ files (from Emotion C compilation)
-# These appear next to .cxx files when you compile
 *.cpp
 
-# BUT keep ALL source files in src/ (they are .cpp files we wrote)
-!src/**/*.cpp
+# BUT keep ALL source files we wrote
+!src/**/*.cpp      # Our source code
+!include/**/*.h    # Our headers
+!include/**/*.hpp  # Just in case
 
 # Compiled executables
 *.out
@@ -26,7 +27,3 @@ emotion
 # OS files
 .DS_Store
 Thumbs.db
-
-.cxx
-
-.cxx.cpp
