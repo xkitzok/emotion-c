@@ -1,23 +1,32 @@
-# main
+# Build directory
 build/
 
-# compiled objects
+# Compiled objects
 *.o
 
-# compiler executable
+# Compiler executable
 emotion
 
-# generated C++ files
+# Generated C++ files (from Emotion C compilation)
+# These appear next to .cxx files when you compile
 *.cpp
 
-# compiled executables
+# BUT keep ALL source files in src/ (they are .cpp files we wrote)
+!src/**/*.cpp
+
+# Compiled executables
 *.out
 
-# editor files
+# Editor files
 .vscode/
 *.swp
 *.swo
+*~
 
 # OS files
 .DS_Store
 Thumbs.db
+
+.cxx
+
+.cxx.cpp
